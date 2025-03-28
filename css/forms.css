@@ -1,0 +1,6 @@
+#summary {
+  visibility: hidden;
+}
+#webform {
+  background-color: var(--form-background-color);
+}
