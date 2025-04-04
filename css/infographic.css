@@ -1,3 +1,9 @@
+.content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* To lige store kolonner */
+  gap: 2rem; /* Afstand mellem sektioner */
+  align-items: start; /* Juster efter behov */
+}
 #head-txt {
   fill: rgb(54, 54, 54);
 }
@@ -5,6 +11,7 @@
 .info-text {
   background-color: var(--info-background-color);
   padding: 0;
+  border: 10px solid var(--border-color);
 }
 .info-text h2 {
   line-height: 3rem;
@@ -29,3 +36,15 @@
   margin: 0 0 1.2rem 0;
   padding: 0;
 }
+
+.summary{
+  background-color: var(--info-background-color);
+  padding: 0;
+  border: 10px solid var(--border-color);
+}
+.summary-content {
+  display: grid;
+  grid-template-columns: repeat3, 1fr;
+  gap: 0.5rem;
+}
+

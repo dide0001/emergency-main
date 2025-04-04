@@ -1,63 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/infographic.css" />
-    <link rel="stylesheet" href="css/forms.css" />
-    <link rel="icon" type="image/png" href="img/fav.png" />
-    <title>Emergency Site</title>
-  </head>
-  <body id="register">
-    <header>
-      <nav>
-        <div id="logotype-wrapper">
-          <a href="index.html"> LOGOTYPE </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/infographic.css" />
+  <link rel="stylesheet" href="css/forms.css" />
+  <link rel="icon" type="image/png" href="img/fav.png" />
+  <title>Emergency Site</title>
+</head>
+
+<body id="register">
+  <header>
+    <nav>
+      <div id="logotype-wrapper">
+        <a href="index.html"> LOGOTYPE </a>
+      </div>
+      <ul class="menu">
+        <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
+        <li><a class="menuItem" href="register.html">Shabab news</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="main-title">Tilmeld dig Shabab news</h1>
+
+    <div class="content-wrapper">
+      <section id="webform">
+        <h2>Kontaktoplysninger</h2>
+
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Dit navn</label>
+            <input type="text" id="name" name="name" placeholder="Dit fulde navn" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Din email</label>
+            <input type="email" id="email" name="email" placeholder="Din emailadresse" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Dit telefonnummer hvis vi skal kontakte dig...</label>
+            <div class="phone-input">
+              <select name="country_code" id="country-code">
+                <option value="+45" selected>+45 (Danmark)</option>
+              </select>
+              <input type="tel" id="phone" name="phone" placeholder="Telefonnummer">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="file">Vedhæft fil (valgfri)</label>
+            <input type="file" id="file" name="file">
+          </div>
+
+          <button type="submit" class="submit-btn">Indsend →</button>
+        </form>
+      </section>
+
+      <section id="summary">
+        <h2>Opsummering</h2>
+        <div class="summary-content">
+          <p>Tak for din tilmelding til <strong>Shabab news</strong>. Du vil modtage en bekræftelse på din emailadresse.
+          </p>
+          <p>Vi glæder os til at have dig med!</p>
+          <p>Hvis du har spørgsmål, er du velkommen til at kontakte os.</p>
+
+          <div class="signature">
+            <p>Med venlig hilsen,</p>
+            <p><strong>Shabab news teamet</strong></p>
+          </div>
+
+          <p>Shabab news er en nyhedstjeneste, der leverer opdateringer og informationer til vores abonnenter.</p>
+          <p>Vi er dedikeret til at give dig de mest relevante og aktuelle nyheder.</p>
+          <p>Vi værdsætter din interesse og ser frem til at holde dig informeret.</p>
+          <p>Tak for din tilmelding!</p>
         </div>
-        <ul class="menu">
-          <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
-          <li><a class="menuItem" href="register.html">Indberet</a></li>
-        </ul>
-      </nav>
-    </header>
+      </section>
+    </div>
+  </main>
 
-    <main>
-      <h1>INDBERET</h1>
-      <section id="webform"></section>
-      <section id="summary"></section>
-    </main>
+  <footer>
+    <nav class="some">
+      <ul>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+      </ul>
+    </nav>
+    <nav class="another">
+      <ul>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+      </ul>
+    </nav>
+    <nav class="yetanother">
+      <ul>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <!-- <script src="js/main.js"></script> -->
+  <script src="js/burger.js"></script>
+</body>
 
-    <footer>
-      <nav class="some">
-        <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-        </ul>
-      </nav>
-      <nav class="another">
-        <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-        </ul>
-      </nav>
-      <nav class="yetanother">
-        <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
-        </ul>
-      </nav>
-    </footer>
-    <!-- <script src="js/main.js"></script> -->
-    <script src="js/burger.js"></script>
-  </body>
 </html>
