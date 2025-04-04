@@ -4,7 +4,7 @@
   grid-template-columns: 3fr 5fr;
   gap: 10px;
   padding: 10px 0 10px 10px;
-  /* border: 1px solid var(--border-color); */
+  border: 10px solid var(--border-color); 
   border-radius: var(--border-radius);
   height: minmax(200px, min-content);
 }
@@ -37,7 +37,7 @@
   grid-template-rows: repeat(min-content);
   gap: 0.4rem;
   padding: 1rem 0;
-  /* border: 1px solid var(--border-color); */
+  border: 10px solid var(--border-color); 
   height: minmax(300px, min-content);
 }
 .news_card:nth-child(2n) {

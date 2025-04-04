@@ -14,11 +14,17 @@ ul,
 body {
   font-family: var(--default-font);
   color: var(--primary-font-color);
-  background-color: var(--primary-bg-color);
+    background: linear-gradient(to bottom, #B3B3B3, #4D4D4D);
+    height: 100vh;
+    margin: 0;
+}
+
+.menu{
+  background-color: #7F7F7F;
 }
 header,
 footer {
-  background-color: var(--header-background-color);
+  /* background-color: var(--header-background-color); */
   color: var(--secondary-font-color);
   height: min-content;
 }
@@ -28,7 +34,7 @@ footer {
 }
 #main-disclamer {
   height: 180px;
-  background-color: var(--header-background-color);
+  /* background-color: var(--header-background-color); */
   display: flex;
   justify-content: flex-start;
   align-items: center;
