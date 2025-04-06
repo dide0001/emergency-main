@@ -56,3 +56,4 @@ function bikeInfo(){
     document.querySelector(".info-text > h2").textContent = "Zig en cykel";
     document.querySelector(".info-text > article > p").textContent = "Zig en cykel, cykler på nørrebro er allemands-eje";
 }
+
